@@ -2,13 +2,15 @@
 
 namespace Avataaar;
 
-use Faker\{Factory, Generator};
+use Faker\Factory;
+use Faker\Generator;
 
 /**
- * 
+ *
  */
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+class LaravelProvider extends \Illuminate\Support\ServiceProvider
 {
+
     /**
      * Register the service provider.
      *
@@ -18,7 +20,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     {
         $this->app->singleton(Generator::class, function () {
             $faker = Factory::create();
-            $faker->addProvider(new AvataaarProvider($faker));
+            $faker->addProvider(new FakerProvider($faker));
             return $faker;
         });
     }
