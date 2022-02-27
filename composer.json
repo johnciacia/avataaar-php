@@ -1,0 +1,20 @@
+{
+    "name": "johnciacia/avataaar",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Johnciacia\\Avataaar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Ciacia",
+            "email": "hi@johnciacia.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    }
+}
