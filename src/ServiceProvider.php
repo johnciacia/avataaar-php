@@ -7,7 +7,7 @@ use Faker\{Factory, Generator};
 /**
  * 
  */
-class ServiceProvider extends Illuminate\Support\ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
      * Register the service provider.

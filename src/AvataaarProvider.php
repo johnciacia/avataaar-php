@@ -5,7 +5,7 @@ namespace Avataaar;
 /**
  * 
  */
-class AvataaarProvider extends Faker\Provider\Base {    
+class AvataaarProvider extends \Faker\Provider\Base {    
     
     /**
      * 
