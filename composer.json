@@ -1,9 +1,11 @@
 {
     "name": "johnciacia/avataaar",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
+            "Avataaar\\": "src/",
             "Johnciacia\\Avataaar\\": "src/"
         }
     },
