@@ -13,7 +13,7 @@ PHP library for generating random avatars based on [avataaars](https://avataaars
 - Composer 2.0
 
 
-## Install
+### Install
 Install the library via composer
 
 ```
